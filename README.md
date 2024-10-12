@@ -3,8 +3,11 @@
 
 The code of "Guided Fusion of Infrared and Visible Images using Gradient-Based Attentive Generative Adversarial Networks"
 ## Network Architecture
-![image](https://github.com/catjsjsj/GF-GAN/tree/master/Network_structure/GF-GAN.jpg)
+![image](https://github.com/catjsjsj/GF-GAN/blob/master/Network_structure/GF-GAN.jpg)
 GF-GAN overall structure.
+## Novel gradient attention mechanism
+![image](https://github.com/catjsjsj/GF-GAN/blob/master/Network_structure/Gradient%20attention.jpg)
+Detailed structure of the gradient attention mechanism.
 ## To Train
 
 Run "**CUDA_VISIBLE_DEVICES=0 python train.py**" to train your model.
@@ -24,6 +27,9 @@ Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model.
 
 
 
-# Visualizing the Attention Map
-![](https://github.com/catjsjsj/GF-GAN/blob/main/GF-GAN_model/tzt/tsetval_pred_temp/1.jpg) 
-![](https://github.com/catjsjsj/GF-GAN/blob/main/GF-GAN_model/tzt/tsetval_pred_temp/4.jpg) 
+# Fusion Example
+<img src="https://github.com/catjsjsj/GF-GAN/blob/master/Fusion_results/TNO41_9.png" width="210px"><img src="https://github.com/catjsjsj/GF-GAN/blob/master/Fusion_results/TNO41_11.png" width="210px">
+<img src="https://github.com/catjsjsj/GF-GAN/blob/master/Fusion_results/TNO41_12.png" width="210px"><img src="https://github.com/catjsjsj/GF-GAN/blob/master/Fusion_results/TNO41_13.png" width="210px">
+
+Qualitative comparison of GF-GAN from the TNO dataset.
+
