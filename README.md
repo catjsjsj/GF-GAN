@@ -3,8 +3,8 @@
 
 The code of "Guided Fusion of Infrared and Visible Images using Gradient-Based Attentive Generative Adversarial Networks"
 ## Network Architecture
-![The architecture of the real-time infrared and visible image fusion network based on gradient residual dense block.](https://github.com/Linfeng-Tang/SeAFusion/blob/main/Figure/Network.png)
-The architecture of the real-time infrared and visible image fusion network based on gradient residual dense block.
+![image](https://github.com/catjsjsj/GF-GAN/tree/master/Network_structure/GF-GAN.jpg)
+GF-GAN overall structure.
 ## To Train
 
 Run "**CUDA_VISIBLE_DEVICES=0 python train.py**" to train your model.
