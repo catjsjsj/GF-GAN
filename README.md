@@ -15,7 +15,7 @@ The training data are used [MSRS](https://github.com/Linfeng-Tang/MSRS "MSRS"): 
 
 ## To Test
 
-Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model.
+Run "**CUDA_VISIBLE_DEVICES=0 python test.py**" to test the model. If you want to reproduce the results of our paper, you can download the TNO dataset and the LLVIP dataset and test them with our pre-trained weights. The TNO dataset can be downloaded [here](https://figshare.com/articles/dataset/TNO_Image_Fusion_Dataset/1008029), and the LLVIP dataset can be downloaded [here](https://bupt-ai-cz.github.io/LLVIP/).
 
 
 ## Recommended Environment
