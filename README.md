@@ -1,7 +1,7 @@
 
 #  GF-GAN
 
-The code of "Guided Fusion of Infrared and Visible Images using Gradient-Based Attentive Generative Adversarial Networks". Our paper has been submitted to a journal and the **DOI** of the paper will be updated after our preprint is approved.
+The code of "Guided Fusion of Infrared and Visible Images using Gradient-Based Attentive Generative Adversarial Networks". Since the article has not yet been published, we have only provided part of the code. However, the code still achieves the fusion effect.
 ## Network Architecture
 ![image](https://github.com/catjsjsj/GF-GAN/blob/master/Network_structure/GF-GAN.jpg)
 GF-GAN overall structure.
